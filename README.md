@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://senbagaraman04.github.io/frontendscreens/)
+- Live Site URL: (https://senbagaraman04.github.io/frontendscreens/)
 
 ## My process
 
