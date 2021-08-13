@@ -1,0 +1,138 @@
+<!--
+
+  Part of Front End challenges curated by frontendmentor.io.
+
+  @author: Senbagaraman 
+  @date: 13-Aug-2021
+  @url: https://github.com/senbagaraman04
+
+
+
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href="index.css" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .apparel-card{
+      width: 45em;
+      margin: auto;
+      /* height: 100%; */
+      border-radius: 5px;
+      /* display: inline-flex; */
+      border: 2px solid teal;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      /* align-items: flex-start; */
+      text-align: center;
+      height: 30em;
+    }
+   .apparel-infosection{
+       float: left;
+      width: 50%;
+      background-image: url("images/bg-pattern-desktop.svg"); 
+    }
+    .apparel-modelphoto{
+        /* float: right; */
+        width: 50%;
+        /* background-repeat: inherit; */
+        /* background-position: top left; */
+        background-size: contain;
+        background-image: url(images/hero-desktop.jpg);
+    }   
+
+    .logocontent {
+      margin: 40px 90px 50px 0;
+    }
+
+    .apparel-content{
+      justify-content: center;
+    }
+    .content-firstline{
+      color: var(--desaturatedRedColor);
+    }
+    .content-content{
+      color: var(--desaturatedRedColor);
+    }
+    .content-secondline{
+  color: black;
+  font-weight: bold;
+    }
+    .content-thirdline{
+      color: black;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="apparel-card">
+   
+
+    <div class="apparel-infosection">
+        <div class="apparel">
+            <div class="logocontent">
+                <img src="./images/logo.svg" alt="huddle" width="100">
+                </div>
+                <div class="apparel-content" >
+                   <span class ="content-firstline">
+                     W E ' R E <br>
+                   </span>
+                   <span class="content-secondline">
+                     C O M I N G <br>
+                   </span>
+                   <span class="content-thirdline">
+                    S O O N <br>
+                    </span>
+                    <br>
+                    <span class="content-content">
+                        Hello fellow shoppers! We're currently building our new fashion store. 
+                        Add your email below to stay up-to-date with announcements and our launch deals.
+                   
+                    </span><br>
+                    <span class="content-emailinfo">
+                        Email Address
+                    </span>
+                   
+                </div>
+          
+    
+           
+        </div>
+           
+    </div>
+    <div class ="apparel-modelphoto">
+      <!-- Image comes here from css-->
+    </div>
+     
+  </div>
+
+
+
+  
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/senbagaraman04" target="_blank">Senbagaraman M</a>.
+    </p>
+  </footer>
+</body>
+</html>
