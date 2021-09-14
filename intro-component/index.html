@@ -1,22 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
   <title>Frontend Mentor | Intro component with sign up form</title>
- </head>
+</head>
+
 <body class="raman-introcomponent-body">
 
- 
-  
+  <div class="raman-introcomponent-wrapper">
+    <div class="raman-introcomponent-leftsidecontent">
+      <h2> Learn to code by watching others</h2>
+      <p>See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+
+    <div class="raman-introcomponent-rightsidecontent">
+      <div class="raman-introcomponent-signupwrapper card">  
+        <div class="raman-introcomponent-signup container" >
+          <p style="text-align: center;padding-top: 15px;color:white"><strong>Try it free 7 days</strong> then $20/mo. thereafter</p>
+          
+        </div>
+
+        <div class="raman-introcomponent-signup-form">
+          <form action="#" class="signup__form">
+            <input type="text" name="first-name" id="first-name" aria-label="First Name" placeholder="First Name" required>
+            <input type="text" name="last-name" id="last-name" aria-label="Last Name" placeholder="Last Name" required>
+            <input type="email" name="email" id="email" aria-label="Email Address" placeholder="Email Address" required>
+            <input type="password" name="password" id="password" aria-label="Password" placeholder="Password" required>
+            <input type="submit" value="Claim your free trial" aria-label="Submit">
+            <span class="terms-notice">By clicking the button, you are agreeing to our <span class="raman-introcomponent-termscondition">Terms and Services</span></span>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="https://github.com/senbagaraman04" target="_blank">Senbagaraman M</a>.
     </p>
   </footer>
 </body>
+
 </html>
