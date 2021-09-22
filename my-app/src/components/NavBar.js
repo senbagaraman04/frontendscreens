@@ -4,7 +4,9 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 import TypoGraphy from '@material-ui/core/Typography'
 import { Home, Book, AccountBox } from '@material-ui/icons'
-import { Link } from "react-router-dom"; 
+import { NavLink } from 'react-router-dom';
+
+
 
 function NavBar(props) {
 
@@ -24,7 +26,8 @@ function NavBar(props) {
                         Posts <Book />
                     </TypoGraphy>
                 </ListItemText>
-
+                {/* style={{ textDecoration: 'none', color: 'unset' }} */}
+                {/* <NavLink to="/about"  > */}
                 <ListItemText inset>
                     <TypoGraphy color="inherit" variant="title">
                         Contact <AccountBox />
@@ -33,6 +36,7 @@ function NavBar(props) {
                         </Link> */}
                     </TypoGraphy>
                 </ListItemText>
+                {/* </NavLink > */}
             </ListItem >
 
         </List>
