@@ -1,2 +1,3 @@
 my-app/node_modules/*
 my-app/yarn.lock
+my-app/package-lock.json
