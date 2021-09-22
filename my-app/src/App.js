@@ -16,8 +16,9 @@ class App extends Component {
              </TypoGraphy>
              <NavBar/>
          </Toolbar>
-         <Posts/>
+        
         </AppBar>
+        <Posts/>
       </div>
     )
   }
