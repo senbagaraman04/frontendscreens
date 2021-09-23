@@ -7,12 +7,13 @@ import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Button, Card, CardGroup, Container } from "react-bootstrap";
 import { Divider, List, ListItem, ListItemText } from '@mui/material';
+import './PricingComponents.css';
 
 
 export default class PricingComponents extends Component {
     render() {
         return (
-            <Container>
+            <Container className="card-page">
                 <CardGroup>
                     <Card1 />
                     <Card2 />
@@ -28,7 +29,7 @@ export default class PricingComponents extends Component {
 class Card1 extends Component {
     render() {
         return (
-            <Card>
+            <Card className="card-light pricing-plan">
                 <Card.Body>
                     <Card.Title>Basic</Card.Title>
                     <Card.Text>
@@ -67,7 +68,7 @@ class Card1 extends Component {
 class Card2 extends Component {
     render() {
         return (
-            <Card>
+            <Card className="card-professional" >
                 <Card.Body>
                     <Card.Title>Professional</Card.Title>
                     <Card.Text>
@@ -107,7 +108,7 @@ class Card2 extends Component {
 class Card3 extends Component {
     render() {
         return (
-            <Card>
+            <Card className="card-light pricing-plan">
                 <Card.Body>
                     <Card.Title>Master</Card.Title>
                     <Card.Text>
