@@ -8,6 +8,8 @@ import Home from "./Home";
 import history from './History';
 import SampleComponents from "./SampleComponents";
 
+import PricingComponents from './FrontEndScreens/PricingComponent'
+
 export default class Routes extends Component {
     render() {
         return (
@@ -18,6 +20,7 @@ export default class Routes extends Component {
                     <Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} />
                     <Route path="/SampleComponents" component={SampleComponents} />
+                    <Route path="/Pricing" component={PricingComponents}/>
                 </Switch>
             </Router>
         )

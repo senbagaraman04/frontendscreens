@@ -15,7 +15,7 @@ function createData(name, techStacks, link) {
 
 const rows = [
     createData('Test Screen', 'ReactJS', 'UnderConstrcution'),
-    
+    createData('Pricing Component', 'ReactJS','Pricing' )
 ];
 
 export default class SampleComponents extends Component {
@@ -41,7 +41,7 @@ export default class SampleComponents extends Component {
                                     </TableCell>
                                     <TableCell align="right">{row.techStacks}</TableCell>
                                     <TableCell align="right"> 
-                                     <Button class="btn btn-success" variant="contained" onClick={() => history.push('/demo1')}>Demo Click</Button>
+                                     <Button class="btn btn-success" variant="contained" onClick={() => history.push(row.link)}>Demo Click</Button>
                                      </TableCell>
                                    
                                 </TableRow>
