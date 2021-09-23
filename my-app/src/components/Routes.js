@@ -6,6 +6,7 @@ import Contact from "./Contact";
 import Products from "./Product";
 import Home from "./Home";
 import history from './History';
+import SampleComponents from "./SampleComponents";
 
 export default class Routes extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class Routes extends Component {
                     <Route path="/About" component={About} />
                     <Route path="/Contact" component={Contact} />
                     <Route path="/Products" component={Products} />
+                    <Route path="/SampleComponents" component={SampleComponents} />
                 </Switch>
             </Router>
         )

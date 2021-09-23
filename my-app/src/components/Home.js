@@ -19,6 +19,9 @@ export default class Home extends Component {
           <form>
             <Button variant="btn btn-success" onClick={() => history.push('/Products')}>Click button to view products</Button>
           </form>
+          <form>
+            <Button variant="btn btn-success" onClick={() => history.push('/SampleComponents')}>Click button to view Sample Components</Button>
+          </form>
         </div>
       </div>
     );
