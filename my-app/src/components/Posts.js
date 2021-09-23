@@ -6,12 +6,11 @@ import CardActions from "@material-ui/core/CardActions";
 import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import Button from "@material-ui/core/Button";
- 
+
 function Posts(props) {
-  console.log(props);
   return (
     <div style={{ marginTop: 20, padding: 30 }}>
-      <Grid container spacing={10} justify="center">
+      <Grid container spacing={10} >
         {posts.map(post => (
           <Grid item key={post.title}>
             <Card>

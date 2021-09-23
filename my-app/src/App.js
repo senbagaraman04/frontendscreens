@@ -11,7 +11,7 @@ class App extends Component {
       <div>
        <AppBar color="primary" position="static">
          <Toolbar>
-             <TypoGraphy variant="title" color="inherit">
+             <TypoGraphy variant="subtitle1" color="inherit">
                  My Header
              </TypoGraphy>
              <NavBar/>

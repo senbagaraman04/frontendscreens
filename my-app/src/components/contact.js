@@ -8,6 +8,12 @@ import {
 } from "@material-ui/core";
 
 class Contact extends React.Component {
+
+  // eslint-disable-next-line no-useless-constructor
+  constructor(){
+    super();
+  }
+  
   render() {
     return (
       <div
