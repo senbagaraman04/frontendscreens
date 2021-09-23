@@ -1,25 +1,20 @@
 import React, { Component } from 'react';
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import TypoGraphy from '@material-ui/core/Typography';
-import NavBar from './components/NavBar';
-import Posts from './components/Posts';
+import { BrowserRouter as Router } from 'react-router-dom';
+
+
+import Navigation from './components/Navbar';
+import Routes from './components/Routes';
+
 
 class App extends Component {
   render() {
     return (
-      <div>
-       <AppBar color="primary" position="static">
-         <Toolbar>
-             <TypoGraphy variant="subtitle1" color="inherit">
-                 My Header
-             </TypoGraphy>
-             <NavBar/>
-         </Toolbar>
-        
-        </AppBar>
-        <Posts/>
+      <Router>
+      <div className="App">
+          <Navigation />
+          <Routes />
       </div>
+  </Router>
     )
   }
 }
