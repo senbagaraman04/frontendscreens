@@ -2,7 +2,7 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
-    "outDir": "../dist/out-tsc",
+    "outDir": "../dist/",
     "forceConsistentCasingInFileNames": true,
     "sourceMap": true,
     "declaration": false,
@@ -28,7 +28,7 @@
     "strictFunctionTypes": true
   },
   "exclude": [
-    "src/assets",
+   
     "dist"
   ],
   "angularCompilerOptions": {
