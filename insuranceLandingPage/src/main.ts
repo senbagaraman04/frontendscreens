@@ -5,9 +5,8 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import { InsuranceComponentComponent } from './app/insurance-component/insurance-component.component';
 import {DemoMaterialModule} from './app/material-module';
-
-import {ButtonToggleOverviewExample} from './app/button-toggle-overview-example';
 
 @NgModule({
   imports: [
@@ -19,9 +18,9 @@ import {ButtonToggleOverviewExample} from './app/button-toggle-overview-example'
     MatNativeDateModule,
     ReactiveFormsModule,
   ],
-  entryComponents: [ButtonToggleOverviewExample],
-  declarations: [ButtonToggleOverviewExample],
-  bootstrap: [ButtonToggleOverviewExample]
+  entryComponents: [InsuranceComponentComponent],
+  declarations: [InsuranceComponentComponent],
+  bootstrap: [InsuranceComponentComponent]
 })
 export class AppModule {}
 
