@@ -6,6 +6,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {platformBrowserDynamic} from '@angular/platform-browser-dynamic';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { HeaderInsuranceComponent } from './app/insurance-component/header-insurance/header-insurance.component';
+import { HumanizingInsuranceComponent } from './app/insurance-component/humanizing-insurance/humanizing-insurance.component';
 import { InsuranceComponentComponent } from './app/insurance-component/insurance-component.component';
 import {DemoMaterialModule} from './app/material-module';
 
@@ -21,7 +22,7 @@ import {DemoMaterialModule} from './app/material-module';
   ],
    
   entryComponents: [InsuranceComponentComponent],
-  declarations: [InsuranceComponentComponent, HeaderInsuranceComponent],
+  declarations: [InsuranceComponentComponent, HeaderInsuranceComponent, HumanizingInsuranceComponent],
   bootstrap: [InsuranceComponentComponent]
 })
 export class AppModule {}
