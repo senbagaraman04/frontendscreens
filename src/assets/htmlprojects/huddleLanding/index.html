@@ -31,6 +31,149 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link href="index.css" rel="stylesheet">
 
+  <style>
+
+/** Font update starts here **/
+
+.header{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600 !important;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrJJbecmNE.woff2) format('woff2');
+    unicode-range: U+0900-097F, U+1CD0-1CF6, U+1CF8-1CF9, U+200C-200D, U+20A8, U+20B9, U+25CC, U+A830-A839, U+A8E0-A8FB;
+  }
+
+
+  .rightText{
+    font-family: 'Open Sans' !important;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/opensans/v22/mem8YaGs126MiZpBA-UFWJ0bbck.woff2) format('woff2');
+    unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+  }
+
+
+/** Font update ends here **/
+
+
+
+  /** Overall Stylings starts here **/
+  * {
+    color: white;
+    text-align: justify;
+   }
+
+  body {
+    background-image: url("./images/bg-desktop.svg");
+    background-color: hsl(257, 40%, 49%);   
+  }
+
+
+  
+  .outerWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+  }
+
+
+   /** Overall Stylings Ends here **/
+
+
+   /** Title Icon **/
+
+
+   .imagePosition {
+    width: 100%;
+    height: 100%;
+    align-content: center;
+  }
+
+   /** Title Icon ends here **/
+
+
+   /** body styling starts here **/
+
+   .leftsidecontent {
+    float: left;
+    width: 65%;
+  }
+
+  @media (min-width: 1440px) {
+    .rightsidecontent {
+      float: right;
+      width: 50%;
+      padding-left: 20px;
+      padding-right: 20px;
+      position: relative;
+
+      margin-top: 142px;
+      align-self: baseline;
+    }
+  }
+
+
+   
+  .header h2 {
+    text-align: justify;
+    line-height: 1.8;
+  }
+
+
+  /** register button styling starts here **/
+
+  
+
+  .buttonregister {
+    color: hsl(257, 40%, 49%) !important;
+    margin-top: 30px;
+    text-decoration: none;
+    background: white;
+    padding: 12px 60px 11px 50px;
+    border-radius: 50px;
+    display: inline-block;
+    border: none;
+  }
+
+  .buttonregister:hover {
+    background: hsl(300, 69%, 71%);
+  }
+
+  /** register button styling ends here **/
+
+   /** body styling ends here **/
+
+
+   /** icon styling starts here **/
+
+   
+  .footerbuttons  {
+    padding-right: 20px;
+    float: right;
+    margin-top: 50px;
+  }
+
+  .footerbuttons i {
+      padding: 20px;
+  }
+
+  .socialIcons:hover {
+    background: hsl(300, 69%, 71%);
+  }
+
+  /** icon styling ends here **/
+
+
+
+
+
+  </style>
+
 </head>
 
 <body style="height:100%">
