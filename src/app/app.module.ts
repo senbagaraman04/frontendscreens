@@ -7,13 +7,15 @@ import { SingleCardComponent } from './projects/single-card/single-card.componen
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { FourCardComponent } from './projects/four-card/four-card.component';
 import { FyloDarkComponent } from './projects/fylo-dark/fylo-dark.component';
+import { ProjectTrackingComponent } from './projects/project-tracking/project-tracking.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SingleCardComponent,
     FourCardComponent,
-    FyloDarkComponent
+    FyloDarkComponent,
+    ProjectTrackingComponent
   ],
   imports: [
     BrowserModule,
