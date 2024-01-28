@@ -1,3 +1,4 @@
 pricing/node_modules/*
 insuranceLandingPage/package-lock.json
 pricing/yarn.lock
+.angular/*

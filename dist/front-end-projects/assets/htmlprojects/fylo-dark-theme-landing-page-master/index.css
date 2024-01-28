@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+   }
+   body {
+    font-family: 'Open Sans', sans-serif;;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+.fylo-center {
+    display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+     
+   }
+   .nav-links a {
+   
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+   
+     text-decoration: underline;
+    
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+ 
+
+
+
+   /** Intro Section **/
+.first-intro-section > div {
+         
+             padding-top: 1em !important;
+             padding-bottom: 1em !important;
+         
+}
+
+.first-intro-section-image {
+    width: 50%;
+    height: 50%;
+}
+
+.first-intro-section-content-1 {
+    padding-top: 2em;
+    width: 35%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    position: relative;  text-align: center;
+    justify-content: center;
+    width: 33%;
+}
+
+
+.fylo-cta-button-getstarted {
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    font-size: 1.4em;
+    padding: 1.3rem 5rem;
+    background-image: linear-gradient(90deg, #65e2d9, #339ecc);
+}
+
+
+
+.first-intro-section-content-2{
+    display: flex;
+    position: relative; 
+     text-align: center;
+    justify-content: center;
+    width: 33%;
+}
+
+
+          /**  Four Section Part  **/
+
+    .four-sections-part {
+        display: flexbox;
+  position: relative;
+  flex-direction: column;
+  column-count: 2;
+  flex: 20px;
+  left: 10rem;
+ /*  background: url("./images/bg-curvy-desktop.svg"); */
+  width: 84%;
+    }
+
+    .one-out-of-four-wrapper , 
+    .two-out-of-four-wrapper ,
+    .three-out-of-four-wrapper,
+     .four-out-of-four-wrapper {
+       
+        /* text-align: center; */
+        justify-content: center;
+        width: inherit;
+    }
+
+
+
+    .four-section-content-p {
+        display: flex;
+        width: 90%;
+        text-align: center;
+        position: relative;
+    }

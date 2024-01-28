@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  <title>Frontend Mentor | Fylo landing page with dark theme and features grid</title>
+
+  <link rel="stylesheet" href="index.css">
+
+  <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+   }
+   body {
+    font-family: 'Open Sans', sans-serif;;
+   }
+   a {
+    text-decoration: none;
+   }
+   li {
+    list-style: none;
+   }
+
+.fylo-center {
+    display: flex;
+	justify-content: center;
+	align-items: center;  
+}
+
+
+   /* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    
+     
+   }
+   .nav-links a {
+   
+   }
+   /* LOGO */
+   .logo {
+    font-size: 32px;
+    
+   }
+   /* NAVBAR MENU */
+   .menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+   }
+   .menu li:hover {
+   
+     text-decoration: underline;
+    
+   }
+   .menu li {
+    padding: 5px 14px;
+   }
+ 
+
+
+
+   /** Intro Section **/
+.first-intro-section > div {
+         
+             padding-top: 1em !important;
+             padding-bottom: 1em !important;
+         
+}
+
+.first-intro-section-image {
+    width: 50%;
+    height: 50%;
+}
+
+.first-intro-section-content-1 {
+    padding-top: 2em;
+    width: 35%;
+    font-size: 25px;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    position: relative;  text-align: center;
+    justify-content: center;
+    width: 33%;
+}
+
+
+.fylo-cta-button-getstarted {
+    outline: none;
+    border: none;
+    color: #fff;
+    font-family: "Raleway",sans-serif;
+    font-weight: 700;
+    border-radius: 5rem;
+    font-size: 1.4em;
+    padding: 1.3rem 5rem;
+    background-image: linear-gradient(90deg, #65e2d9, #339ecc);
+}
+
+
+
+.first-intro-section-content-2{
+    display: flex;
+    position: relative; 
+     text-align: center;
+    justify-content: center;
+    width: 33%;
+}
+
+
+          /**  Four Section Part  **/
+
+    .four-sections-part {
+        display: flexbox;
+  position: relative;
+  flex-direction: column;
+  column-count: 2;
+  flex: 20px;
+  left: 10rem;
+ /*  background: url("./images/bg-curvy-desktop.svg"); */
+  width: 84%;
+    }
+
+    .one-out-of-four-wrapper , 
+    .two-out-of-four-wrapper ,
+    .three-out-of-four-wrapper,
+     .four-out-of-four-wrapper {
+       
+        /* text-align: center; */
+        justify-content: center;
+        width: inherit;
+    }
+
+
+
+    .four-section-content-p {
+        display: flex;
+        width: 90%;
+        text-align: center;
+        position: relative;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <!-- LOGO -->
+    <div class="logo"><img src="./images/logo.svg" alt="fylo"></div>
+    <!-- NAVIGATION MENU -->
+    <ul class="nav-links">
+      <!-- NAVIGATION MENUS -->
+      <div class="menu">
+        <li><a href="/"> Features</a></li>
+        <li><a href="/">Team</a></li>
+
+        <li><a href="/">Sign In</a></li>
+
+      </div>
+    </ul>
+  </nav>
+
+  <div class="first-intro-section">
+    <div class="first-intro-section-image-wrapper fylo-center">
+      <img src="./images/illustration-intro.png" alt="intro-text" class=" first-intro-section-image">
+    </div>
+
+    <div class="fylo-center">
+      <h2 class="first-intro-section-content-1 fylo-center">
+        All your files in one secure location,<br> accessible anywhere.
+      </h2>
+    </div>
+
+    <div class="fylo-center">
+      <p class="first-intro-section-content-2">
+        Fylo stores all your most important files in one secure location. Access them wherever
+        you need, share and collaborate with friends family, and co-workers.
+      </p>
+    </div>
+
+
+    <div class="fylo-center">
+      <button class="fylo-center fylo-cta-button-getstarted"> Get Started </button>
+    </div>
+
+  </div>
+
+
+
+  <div class="four-sections-part">
+    <div class="one-out-of-four-wrapper">
+      <div class="fylo-center one-out-of-four-image-wrapper">
+        <img src="images/icon-access-anywhere.svg" alt="access-anywhere" class="one-out-of-four-image" />
+      </div>
+      <h4 class="fylo-center one-out-of-four-title">
+        Access your files, anywhere
+      </h4>
+      <p class="one-out-of-four-content four-section-content-p">
+        The ability to use a smartphone, tablet, or computer to access your account means your
+        files follow you everywhere.
+
+      </p>
+    </div>
+
+    <div class="two-out-of-four-wrapper">
+      <div class="fylo-center two-out-of-four-image-wrapper">
+        <img src="images/icon-security.svg" alt="security you can trust" class="two-out-of-four-image" />
+      </div>
+      <h4 class="fylo-center two-out-of-four-title">
+        Security you can trust
+      </h4>
+      <p class="two-out-of-four-content four-section-content-p">
+        2-factor authentication and user-controlled encryption are just a couple of the security
+        features we allow to help secure your files.
+      </p>
+    </div>
+
+  
+    <div class="three-out-of-four-wrapper">
+      <div class="fylo-center three-out-of-four-image-wrapper">
+        <img src="images/icon-collaboration.svg" alt="realtime collaboration" class="three-out-of-four-image" />
+      </div>
+      <h4 class="fylo-center three-out-of-four-title">
+        Real-time collaboration
+      </h4>
+      <p class="three-out-of-four-content four-section-content-p">
+        Securely share files and folders with friends, family and colleagues for live collaboration.
+        No email attachments required.
+      </p>
+    </div>
+
+    <div class="four-out-of-four-wrapper">
+      <div class="fylo-center four-out-of-four-image-wrapper">
+        <img src="images/icon-any-file.svg" alt="any type of file storage" class="four-out-of-four-image" />
+      </div>
+      <h4 class="fylo-center four-out-of-four-title">
+        Store any type of file
+      </h4>
+      <p class="four-out-of-four-content four-section-content-p">
+        Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all
+        file types to be securely stored and shared.
+      </p>
+    </div>
+  </div>
+
+
+
+
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Your Name Here</a>.
+    </p>
+  </footer>
+</body>
+
+</html>
