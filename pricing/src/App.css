@@ -1,0 +1,61 @@
+/* Imports */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+/* Variables */
+
+:root {
+  --linear-gradient: linear-gradient(hsl(236, 72%, 79%), #696fdd);
+  --very-light-grayish-blue: hsl(240, 78%, 98%);
+  --light-grayish-blue: hsl(234, 14%, 74%);
+  --grayish-blue: hsl(233, 13%, 49%);
+  --dark-grayish-blue: hsl(232, 13%, 33%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  background-color: var(--very-light-grayish-blue);
+  background-image: url("https://raw.githubusercontent.com/carlwicker/react-pricing-component-with-toggle/main/src/img/bg-top.svg");
+  background-position: top right -200px;
+  background-repeat: no-repeat;
+}
+
+.app__section-group {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-bottom: 60px;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://raw.githubusercontent.com/carlwicker/react-pricing-component-with-toggle/main/src/img/bg-top.svg"), url("https://raw.githubusercontent.com/carlwicker/react-pricing-component-with-toggle/main/src/img/bg-bottom.svg");
+    background-position: top right, bottom left;
+  }
+
+  .app__section-group {
+    flex-direction: row;
+    align-items: center;
+    gap: 0;
+  }
+}
